@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    background-color:#002339;
+    color: white;
+}
+.holder{
+    margin: 14vw;
+}
+.holder h1{
+    font-size: 4.5vh;
+}
+.holder h1 span{
+    color: #019f55;
+    border-bottom: 3px solid #019f55;
+}
+.display{
+    margin-top: 6vh;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60vw;
+    border-radius: .65vh;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.display img{
+    height: 3vh;
+    padding-right: 20px;
+    cursor: pointer;
+}
+#gnbtn{
+    border-radius: 6px;
+    border: none;
+    margin-top: 4vh;
+    width: 23vw;
+    height: 7vh;
+    font-size: 2.4vh;
+    color: white;
+    background-color: #019f55;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#gnbtn:hover{
+    scale: 1.03;
+}
+#gnbtn img{
+    height: 4vh;
+    margin-left: 2vw;
+}
+#gnbtn p{
+    margin-right: 2vw;
+}
+
+@media all and (min-width: 270px) and (max-width: 768px) {
+    .holder{
+        margin-top: 20vw;
+    }
+    .holder h1 span{
+        color: #019f55;
+        border-bottom: 3px solid #019f55;
+        font-size: 3.2vh;
+    }
+    .display{
+        margin-top: 6vh;
+        height: 7vh;
+        background-color: white;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 70vw;
+        border-radius: .65vh;
+    }
+    .display input{
+        border: 0;
+        outline: 0;
+        padding-left: 30px;
+        font-size: 2.2vh;
+        width: 30vw;
+    }
+    #gnbtn{
+        border-radius: 6px;
+        border: none;
+        margin-top: 4vh;
+        width: 40vw;
+        height: 6vh;
+        font-size: 1.9vh;
+        color: white;
+        background-color: #019f55;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #gnbtn img{
+        height: 3vh;
+        margin-left: 3vw;
+    }
+    #gnbtn p{
+        margin-right: 2vw;
+    }    
+ }
